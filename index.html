@@ -5,18 +5,102 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Maha Khan | Support Quest Portfolio</title>
-  <meta name="description" content="Game-inspired portfolio of Maha Khan, a Memorial University Computer Science graduate with IT help desk, software development, and data pipeline experience.">
-  <meta name="keywords" content="Maha Khan, software developer, IT support, help desk, Verafin, Memorial University, portfolio">
-  <meta property="og:title" content="Maha Khan | Support Quest Portfolio">
-  <meta property="og:description" content="An interactive career quest through support, software, and practical problem solving.">
+  <title>Maha Khan | IT Support & Software Developer Portfolio</title>
+  <meta name="description" content="Maha Khan is a St. John's based IT support specialist and software developer with experience at Memorial University and Verafin across help desk support, data pipelines, React, Java, Python, SQL, and user-focused troubleshooting.">
+  <meta name="keywords" content="Maha Khan, Maha Amjad Khan, IT support, software developer, help desk support, Verafin intern, Memorial University, St. John's NL, React developer, Java developer, Python developer, portfolio">
+  <meta name="author" content="Maha Khan">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://mahaakhan.com/">
+  <meta property="og:title" content="Maha Khan | IT Support & Software Developer">
+  <meta property="og:description" content="Portfolio of Maha Khan: IT support specialist, software developer, Memorial University Computer Science graduate, and former Verafin software development intern.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mahaakhan.com/">
+  <meta property="og:site_name" content="Maha Khan Portfolio">
+  <meta property="og:image" content="https://mahaakhan.com/assets/img/maha-profile.jpeg">
+  <meta property="og:image:alt" content="Portrait of Maha Khan">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Maha Khan | IT Support & Software Developer">
+  <meta name="twitter:description" content="Explore Maha Khan's interactive portfolio, resume, support experience, software projects, and technical skills.">
+  <meta name="twitter:image" content="https://mahaakhan.com/assets/img/maha-profile.jpeg">
 
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://mahaakhan.com/#maha-khan",
+          "name": "Maha Khan",
+          "alternateName": "Maha Amjad Khan",
+          "url": "https://mahaakhan.com/",
+          "image": "https://mahaakhan.com/assets/img/maha-profile.jpeg",
+          "email": "mailto:maheya2002@gmail.com",
+          "telephone": "+1-709-425-4041",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "St. John's",
+            "addressRegion": "NL",
+            "addressCountry": "CA"
+          },
+          "jobTitle": "IT Support Specialist and Software Developer",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Memorial University of Newfoundland"
+          },
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Commons, Memorial University of Newfoundland"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/maha-amjad-khan-2a5091299/"
+          ],
+          "knowsAbout": [
+            "IT Help Desk Support",
+            "Software Development",
+            "End-User Computing",
+            "Troubleshooting",
+            "Python",
+            "Java",
+            "JavaScript",
+            "React",
+            "Node.js",
+            "SQL",
+            "pandas",
+            "Git",
+            "GitHub",
+            "Data Pipelines"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://mahaakhan.com/#website",
+          "url": "https://mahaakhan.com/",
+          "name": "Maha Khan Portfolio",
+          "description": "Interactive portfolio and resume site for Maha Khan, IT support specialist and software developer.",
+          "publisher": {
+            "@id": "https://mahaakhan.com/#maha-khan"
+          }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://mahaakhan.com/#profile-page",
+          "url": "https://mahaakhan.com/",
+          "name": "Maha Khan Portfolio",
+          "about": {
+            "@id": "https://mahaakhan.com/#maha-khan"
+          },
+          "mainEntity": {
+            "@id": "https://mahaakhan.com/#maha-khan"
+          }
+        }
+      ]
+    }
+  </script>
 </head>
 
 <body>
@@ -39,6 +123,7 @@
       <a href="#loadout">Loadout</a>
       <a href="#experience">Quests</a>
       <a href="#projects">Boss Runs</a>
+      <a href="#arcade">Mini Game</a>
       <a href="#contact">Join Party</a>
       <a class="nav-resume" href="assets/resume/mahakhan_resume.pdf" target="_blank" rel="noopener">Resume</a>
     </nav>
@@ -272,6 +357,52 @@
           <p>Designed app functionality around habit-building, fitness goals, and approachable user experience.</p>
           <strong>Reward: product thinking</strong>
         </article>
+      </div>
+    </section>
+
+    <section id="arcade" class="section-shell arcade-section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Mini Game</span>
+        <h2>Ticket Defender: clear the support queue.</h2>
+      </div>
+
+      <div class="game-cabinet reveal">
+        <div class="game-panel">
+          <div class="game-hud" aria-label="Game stats">
+            <div>
+              <span>Score</span>
+              <strong id="game-score">0</strong>
+            </div>
+            <div>
+              <span>Lives</span>
+              <strong id="game-lives">3</strong>
+            </div>
+            <div>
+              <span>Streak</span>
+              <strong id="game-streak">0</strong>
+            </div>
+          </div>
+          <canvas id="support-game" width="720" height="420" aria-label="Ticket Defender mini game"></canvas>
+          <div class="game-overlay" id="game-overlay">
+            <strong>Ticket Defender</strong>
+            <span>Collect glowing tickets. Dodge red errors. Keep the queue healthy.</span>
+            <button type="button" id="game-start">Start Run</button>
+          </div>
+        </div>
+
+        <aside class="game-brief">
+          <h3>Controls</h3>
+          <p>Use arrow keys or A/D to move. On mobile, use the left and right controls below the arena.</p>
+          <div class="game-controls" aria-label="Mobile game controls">
+            <button type="button" data-move="left"><i class="bi bi-arrow-left"></i></button>
+            <button type="button" data-move="right"><i class="bi bi-arrow-right"></i></button>
+          </div>
+          <div class="game-rewards">
+            <span><i class="bi bi-ticket-perforated"></i> Ticket: +10</span>
+            <span><i class="bi bi-exclamation-octagon"></i> Error: -1 life</span>
+            <span><i class="bi bi-lightning-charge"></i> Streak: speed boost</span>
+          </div>
+        </aside>
       </div>
     </section>
 
